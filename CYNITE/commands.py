@@ -648,7 +648,7 @@ async def send_msg(bot, message):
         for cmd in command:
             if cmd in target_id:
                 target_id = target_id.replace(cmd, "")
-        success = False
+        success = True
         try:
             user = await bot.get_users(int(target_id))
             await message.reply_to_message.copy(int(user.id))
@@ -670,7 +670,7 @@ async def send_chatmsg(bot, message):
         for cmd in command:
             if cmd in target_id:
                 target_id = target_id.replace(cmd, "")
-        success = False
+        success = True
         try:
             chat = await bot.get_chat(int(target_id))
             await message.reply_to_message.copy(int(chat.id))
