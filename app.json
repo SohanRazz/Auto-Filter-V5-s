@@ -1,5 +1,5 @@
 {
-    "name": "CYNITE",
+    "name": "SOHAN",
     "description": "When you going to send file on telegram channel this bot will save that in database, So you can search that easily in inline mode",
     "stack": "container",
     "keywords": [
@@ -15,8 +15,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/Cyniteofficial/Auto-Filter-V5",
-    "repository": "https://github.com/Cyniteofficial/Auto-Filter-V5",
+    "website": "https://github.com/SohanRazz/Auto-Filter-V5",
+    "repository": "https://github.com/SohanRazz/Auto-Filter-V5",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
@@ -56,7 +56,7 @@
         },
         "PICS": {
             "description": "Add some telegraph link of pictures .",
-            "required": false
+            "required": true
         },
         "LOG_CHANNEL": {
             "description": "Bot Logs,Give a channel id with -100xxxxxxx",
@@ -68,7 +68,7 @@
         },
         "AUTH_CHANNEL": {
             "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
-            "required": false
+            "required": true
         },
         "DATABASE_URI": {
             "description": "mongoDB URI. Get this value from https://www.mongodb.com.",
