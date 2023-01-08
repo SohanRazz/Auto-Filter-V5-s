@@ -13,9 +13,9 @@ def is_enabled(value, default):
 # Bot information
 PORT = environ.get("PORT", "8080")
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '26813710'))
-API_HASH = environ.get('API_HASH', '56ded95eda29b601363e3093a54ba42b')
-BOT_TOKEN = environ.get('BOT_TOKEN', "5773148389:AAGOjtMB-UMaM7Zd4LF1-9_MwqYsOmGULRw")
+API_ID = int(environ.get('API_ID', '22146428'))
+API_HASH = environ.get('API_HASH', 'a42d8cec8a28746567765dfc47ab558b")
+BOT_TOKEN = environ.get('BOT_TOKEN', "5915610298:AAGtkcfiyQCUZyEZYn10Dj2dunCh0XgylB0")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -27,12 +27,12 @@ SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/8ee413afc32e5b393e
 NEWGRP = environ.get("NEWGRP", "https://telegra.ph/file/e9c215c9c82cedd1fd959.jpg")
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '884919097').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001807508263').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5897793065').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001679808420').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-auth_channel = environ.get('https://t.me/netflix_hindi_movies_4k')
-auth_grp = environ.get('https://t.me/netflix_hindi_movies_4k')
+auth_channel = environ.get('https://t.me/netflix_hindi_movies_4k2')
+auth_grp = environ.get('https://t.me/netflix_hindi_movies_4k2')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
@@ -55,7 +55,7 @@ HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/Netflix_hindi_movies_
 
 # Log Channels
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001852774435))
-RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL', -1001852774435))
+RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL', -1001858473447)
 
 # Bot Options
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
