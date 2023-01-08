@@ -28,7 +28,7 @@ NEWGRP = environ.get("NEWGRP", "https://telegra.ph/file/e9c215c9c82cedd1fd959.jp
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5897793065').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001679808420').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001859917060').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 auth_channel = environ.get('https://t.me/netflix_hindi_movies_4k2')
@@ -42,19 +42,19 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Netflixv5Bot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files_v5')
 
 # Channel Button Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/requestluciferdownload')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/netflix_hindi_movies_4k')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/sohan_supportnetflix_hindi')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+UYEWxNQG6l43OGQ1')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/netflix_hindi_movies_4k2')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/Chat_admin_mdisk_bot')
 MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 
 # Custom Chats
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', -1001495446942))
-FILE_CHANNEL = int(environ.get('FILE_CHANNEL', -1001807508263))
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', -1001855805384))
+FILE_CHANNEL = int(environ.get('FILE_CHANNEL', -1001679808420))
 FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 'https://t.me/+rsU63u4T3ew1N2I1')
-HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/Netflix_hindi_movies_4k/341')
+HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/Netflix_hindi_movies_4k2')
 
 # Log Channels
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001852774435))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001858473447))
 RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL', -1001858473447)
 
 # Bot Options
