@@ -7,6 +7,6 @@ else
   git clone $UPSTREAM_REPO /Auto-Filter-V5-s
 fi
 cd /Auto-Filter-V5-s
-pip3 install -U -r requirements.txt
+pip install -U -r requirements.txt
 echo "Starting Bot...."
-python3 bot.py
+python bot.py
