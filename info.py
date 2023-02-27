@@ -57,6 +57,7 @@ HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/Netflix_hindi_movies_
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001858473447))
 RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL', -1001858473447)
 
+
 # Bot Options
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
