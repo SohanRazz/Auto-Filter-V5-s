@@ -54,7 +54,7 @@ FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 'https://t.me/+zSwVlMdqWNo2
 HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/')
 
 # Log Channels
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -100918566682)
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -100918566682))
 RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL', ))
 
 # Bot Options
